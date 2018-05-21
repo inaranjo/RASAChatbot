@@ -1,0 +1,534 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hola", 
+        "intent": "Saludo"
+      }, 
+      {
+        "text": "Hola, buenas", 
+        "intent": "Saludo"
+      }, 
+      {
+        "text": "Hey", 
+        "intent": "Saludo"
+      }, 
+      {
+        "text": "Adios", 
+        "intent": "Despedida"
+      }, 
+      {
+        "text": "Adios, gracias", 
+        "intent": "Despedida"
+      }, 
+      {
+        "text": "Gracias, chao", 
+        "intent": "Despedida"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 28, 
+            "value": "Santa Cruz", 
+            "entity": "city"
+          }, 
+          {
+            "start": 29, 
+            "end": 32, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Va a hacer sol en Santa Cruz hoy ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 28, 
+            "value": "Santa Cruz", 
+            "entity": "city"
+          }, 
+          {
+            "start": 29, 
+            "end": 35, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Va a hacer sol en Santa Cruz mañana ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 27, 
+            "value": "La Laguna", 
+            "entity": "city"
+          }, 
+          {
+            "start": 28, 
+            "end": 31, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Va a hacer sol en La Laguna hoy ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 27, 
+            "value": "La Laguna", 
+            "entity": "city"
+          }, 
+          {
+            "start": 28, 
+            "end": 34, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Va a hacer sol en La Laguna mañana ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 25, 
+            "value": "Santa Cruz", 
+            "entity": "city"
+          }, 
+          {
+            "start": 26, 
+            "end": 29, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Va a llover en Santa Cruz hoy ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 25, 
+            "value": "Santa Cruz", 
+            "entity": "city"
+          }, 
+          {
+            "start": 26, 
+            "end": 32, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Va a llover en Santa Cruz mañana ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "La Laguna", 
+            "entity": "city"
+          }, 
+          {
+            "start": 25, 
+            "end": 28, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Va a llover en La Laguna hoy ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "La Laguna", 
+            "entity": "city"
+          }, 
+          {
+            "start": 25, 
+            "end": 31, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Va a llover en La Laguna mañana ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 18, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }, 
+          {
+            "start": 22, 
+            "end": 32, 
+            "value": "Santa Cruz", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Que clima hace hoy en Santa Cruz por favor"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 18, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }, 
+          {
+            "start": 22, 
+            "end": 31, 
+            "value": "La Laguna", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Que clima hace hoy en La Laguna por favor"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }, 
+          {
+            "start": 25, 
+            "end": 35, 
+            "value": "Santa Cruz", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Que clima hace mañana en Santa Cruz por favor"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }, 
+          {
+            "start": 25, 
+            "end": 34, 
+            "value": "La Laguna", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Que clima hace mañana en La Laguna por favor"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 30, 
+            "value": "Santa Cruz", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Cual es el clima en Santa Cruz ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 29, 
+            "value": "La Laguna", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Cual es el clima en La Laguna ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 20, 
+            "value": "uno", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 24, 
+            "end": 29, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Restaurante para uno en Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 20, 
+            "value": "uno", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 24, 
+            "end": 27, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Restaurante para uno en Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 18, 
+            "value": "uno", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 22, 
+            "end": 27, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Restaurante para 1 en Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 18, 
+            "value": "uno", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 22, 
+            "end": 25, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Restaurante para 1 en Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 20, 
+            "value": "dos", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 24, 
+            "end": 29, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Restaurante para dos en Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 20, 
+            "value": "dos", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 24, 
+            "end": 27, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Restaurante para dos en Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 18, 
+            "value": "dos", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 22, 
+            "end": 27, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Restaurante para 2 en Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 18, 
+            "value": "dos", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 22, 
+            "end": 25, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Restaurante para 2 en Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 39, 
+            "end": 44, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Quiero ir a un restaurante en Tenerife Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 39, 
+            "end": 42, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Quiero ir a un restaurante en Tenerife Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 37, 
+            "end": 42, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Que me recomientas para comer por el Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 37, 
+            "end": 40, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Que me recomientas para comer por el Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 26, 
+            "value": "uno", 
+            "entity": "restaurantPeople"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Necesito reservar para uno personas"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 24, 
+            "value": "uno", 
+            "entity": "restaurantPeople"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Necesito reservar para 1 personas"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 26, 
+            "value": "dos", 
+            "entity": "restaurantPeople"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Necesito reservar para dos personas"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 24, 
+            "value": "dos", 
+            "entity": "restaurantPeople"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Necesito reservar para 2 personas"
+      }
+    ], 
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "2"
+        ], 
+        "value": "dos"
+      }, 
+      {
+        "synonyms": [
+          "1"
+        ], 
+        "value": "uno"
+      }
+    ], 
+    "regex_features": [
+      {
+        "pattern": "hey[^\\s]*", 
+        "name": "Saludo"
+      }, 
+      {
+        "pattern": "[0-9]{5}", 
+        "name": "zipcode"
+      }
+    ]
+  }
+}

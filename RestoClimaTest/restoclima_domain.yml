@@ -1,0 +1,90 @@
+slots:
+  weatherDate:
+    type: text
+  city:
+    type: text
+  restaurantDate:
+    type: text
+  restaurantLoc:
+    type: text
+  restaurantPeople:
+    type: text
+
+intents:
+ - Saludo
+ - Despedida
+ - GetRestaurant
+ - GetWeather
+
+entities:
+ - weatherDate
+ - city
+ - restaurantDate
+ - restaurantLoc
+ - restaurantPeople
+
+templates:
+  utter_greet:
+    - "Hola!"
+  utter_ask_howcanhelp:
+    - "Hola! En que te puedo ayudar?"
+    - "Estoy para ayudarte, dime que necesitas por favor"
+  utter_goodbye:
+    - "Adios :("
+    - "Chao"
+  utter_ask_weatherDate: 
+    - text : "El clima de cuando?"
+    - text : "El clima de que dia, hoy o mañana?"
+      buttons:
+      - title: "hoy"
+        payload: "hoy"
+      - title: "mañana"
+        payload: "mañana"
+
+  utter_ask_city: 
+    - text : "En que isla buscas el clima?"
+    - text : "Que isla: Tenerife o el Hierro"
+      buttons:
+      - title: "Tenerife"
+        payload: "Tenerife"
+      - title: "Hierro"
+        payload: "Hierro"
+
+  utter_ask_restaurantDate: 
+    - text : "Cuando quieres comer?"
+    - text : "Para el viernes o para el sabado?"
+      buttons:
+      - title: "viernes"
+        payload: "viernes"
+      - title: "sabado"
+        payload: "sabado"
+
+  utter_ask_restaurantLoc: 
+    - text : "En donde quieres el restaurante?"
+    - text : "En que zona, Sur o Norte?"
+      buttons:
+      - title: "Norte"
+        payload: "Norte"
+      - title: "Sur"
+        payload: "Sur"
+
+  utter_ask_restaurantPeople: 
+    - text : "Para cuantos?"
+    - text : "Cena para 2?"
+      buttons:
+      - title: "1"
+        payload: "1"
+      - title: "2"
+        payload: "2"
+
+actions:
+  - utter_greet
+  - utter_ask_howcanhelp
+  - utter_goodbye
+  - utter_ask_weatherDate
+  - utter_ask_city
+  - utter_ask_restaurantDate
+  - utter_ask_restaurantLoc
+  - utter_ask_restaurantPeople
+  - actions.ActionShowWeather
+  - actions.ActionShowRestaurant

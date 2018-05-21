@@ -1,0 +1,102 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_ask_howcanhelp
+- utter_goodbye
+- utter_ask_weatherDate
+- utter_ask_city
+- utter_ask_restaurantDate
+- utter_ask_restaurantLoc
+- utter_ask_restaurantPeople
+- action_show_weather
+- action_show_restaurant
+actions:
+- utter_greet
+- utter_ask_howcanhelp
+- utter_goodbye
+- utter_ask_weatherDate
+- utter_ask_city
+- utter_ask_restaurantDate
+- utter_ask_restaurantLoc
+- utter_ask_restaurantPeople
+- actions.ActionShowWeather
+- actions.ActionShowRestaurant
+config:
+  store_entities_as_slots: true
+entities:
+- weatherDate
+- city
+- restaurantDate
+- restaurantLoc
+- restaurantPeople
+intents:
+- Saludo
+- Despedida
+- GetRestaurant
+- GetWeather
+slots:
+  city:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  restaurantDate:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  restaurantLoc:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  restaurantPeople:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  weatherDate:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_city:
+  - text: En que isla buscas el clima?
+  - buttons:
+    - payload: Tenerife
+      title: Tenerife
+    - payload: Hierro
+      title: Hierro
+    text: 'Que isla: Tenerife o el Hierro'
+  utter_ask_howcanhelp:
+  - text: Hola! En que te puedo ayudar?
+  - text: Estoy para ayudarte, dime que necesitas por favor
+  utter_ask_restaurantDate:
+  - text: Cuando quieres comer?
+  - buttons:
+    - payload: viernes
+      title: viernes
+    - payload: sabado
+      title: sabado
+    text: Para el viernes o para el sabado?
+  utter_ask_restaurantLoc:
+  - text: En donde quieres el restaurante?
+  - buttons:
+    - payload: Norte
+      title: Norte
+    - payload: Sur
+      title: Sur
+    text: En que zona, Sur o Norte?
+  utter_ask_restaurantPeople:
+  - text: Para cuantos?
+  - buttons:
+    - payload: '1'
+      title: '1'
+    - payload: '2'
+      title: '2'
+    text: Cena para 2?
+  utter_ask_weatherDate:
+  - text: El clima de cuando?
+  - buttons:
+    - payload: hoy
+      title: hoy
+    - payload: mañana
+      title: mañana
+    text: El clima de que dia, hoy o mañana?
+  utter_goodbye:
+  - text: Adios :(
+  - text: Chao
+  utter_greet:
+  - text: Hola!
+topics: []

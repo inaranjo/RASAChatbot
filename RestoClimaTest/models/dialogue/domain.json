@@ -1,0 +1,30 @@
+{
+  "states": [
+    "intent_Saludo", 
+    "intent_Despedida", 
+    "intent_GetRestaurant", 
+    "intent_GetWeather", 
+    "entity_weatherDate", 
+    "entity_city", 
+    "entity_restaurantDate", 
+    "entity_restaurantLoc", 
+    "entity_restaurantPeople", 
+    "slot_city_0", 
+    "slot_restaurantDate_0", 
+    "slot_restaurantLoc_0", 
+    "slot_restaurantPeople_0", 
+    "slot_weatherDate_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_ask_howcanhelp", 
+    "prev_utter_goodbye", 
+    "prev_utter_ask_weatherDate", 
+    "prev_utter_ask_city", 
+    "prev_utter_ask_restaurantDate", 
+    "prev_utter_ask_restaurantLoc", 
+    "prev_utter_ask_restaurantPeople", 
+    "prev_action_show_weather", 
+    "prev_action_show_restaurant"
+  ]
+}

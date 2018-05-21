@@ -1,0 +1,55 @@
+%[Saludo]
+    Hola
+    Hey
+
+%[Despedida]
+    Gracias
+    Adios
+
+%[GetWeather]
+    Que clima hace @[weatherDate] en @[city]
+    Cual es el clima en @[city] ?
+    Clima en @[city] 
+    Sol en @[city] 
+    Lluvia en @[city] 
+    Tiempo en @[city] 
+    Clima @[weatherDate] 
+    Tiempo @[weatherDate] 
+    Sol @[weatherDate] 
+    Lluvia @[weatherDate] 
+    @[weatherDate] @[city] 
+    @[city] @[weatherDate]
+    @[city]
+    @[weatherDate]
+
+@[weatherDate#snips/datetime]
+    hoy
+    mañana
+
+@[city#location]
+    Tenerife
+    Hierro
+
+%[GetRestaurant]
+    Restaurante para @[restaurantPeople] el @[restaurantDate] en @[restaurantLoc]
+    Necesito reservar para @[restaurantPeople] personas el @[restaurantDate] 
+    Restaurante @[restaurantLoc] 
+    Comer @[restaurantLoc] 
+    Cena @[restaurantLoc] 
+    Restaurante para el @[restaurantDate] 
+    Comer el @[restaurantDate] 
+    Cena el @[restaurantDate] 
+    Restaurante @[restaurantDate] 
+    Restaurante @[restaurantLoc]
+
+@[restaurantDate#snips/datetime]
+    viernes
+    sabado
+
+@[restaurantLoc#location]
+    Norte
+    Sur
+
+@[restaurantPeople#snips/datetime]
+    1
+    2

@@ -1,0 +1,516 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 18, 
+            "value": "1", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 22, 
+            "end": 29, 
+            "value": "viernes", 
+            "entity": "restaurantDate"
+          }, 
+          {
+            "start": 33, 
+            "end": 38, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante para 1 el viernes en Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Cena Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 11, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Comer Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 16, 
+            "value": "Hierro", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Tiempo en Hierro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 9, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Clima hoy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 16, 
+            "value": "viernes", 
+            "entity": "restaurantDate"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Comer el viernes"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Tiempo mañana"
+      }, 
+      {
+        "text": "Hola", 
+        "intent": "Saludo"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Cena Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 12, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Clima mañana"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 18, 
+            "value": "Tenerife", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Lluvia en Tenerife"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 15, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 18, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }, 
+          {
+            "start": 22, 
+            "end": 30, 
+            "value": "Tenerife", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Que clima hace hoy en Tenerife"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 27, 
+            "value": "viernes", 
+            "entity": "restaurantDate"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante para el viernes"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Lluvia mañana"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 19, 
+            "value": "viernes", 
+            "entity": "restaurantDate"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante viernes"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 16, 
+            "value": "Hierro", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Lluvia en Hierro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "hoy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }, 
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "Tenerife", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "mañana Tenerife"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 18, 
+            "value": "2", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 22, 
+            "end": 28, 
+            "value": "sabado", 
+            "entity": "restaurantDate"
+          }, 
+          {
+            "start": 32, 
+            "end": 35, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante para 2 el sabado en Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "Tenerife", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Clima en Tenerife"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }, 
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "Hierro", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "mañana Hierro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "Hierro", 
+            "entity": "city"
+          }, 
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "hoy", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Hierro hoy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 24, 
+            "value": "1", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 37, 
+            "end": 44, 
+            "value": "viernes", 
+            "entity": "restaurantDate"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Necesito reservar para 1 personas el viernes"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 18, 
+            "value": "Tenerife", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Tiempo en Tenerife"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 18, 
+            "value": "1", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 22, 
+            "end": 29, 
+            "value": "viernes", 
+            "entity": "restaurantDate"
+          }, 
+          {
+            "start": 33, 
+            "end": 36, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante para 1 el viernes en Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }, 
+          {
+            "start": 25, 
+            "end": 31, 
+            "value": "Hierro", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Que clima hace mañana en Hierro"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 8, 
+            "value": "Tenerife", 
+            "entity": "city"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Tenerife mañana"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 15, 
+            "value": "Sur", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante Sur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "mañana", 
+            "entity": "weatherDate"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Sol mañana"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 24, 
+            "value": "2", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 37, 
+            "end": 44, 
+            "value": "viernes", 
+            "entity": "restaurantDate"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "Necesito reservar para 2 personas el viernes"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 18, 
+            "value": "sabado", 
+            "entity": "restaurantDate"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante sabado"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 18, 
+            "value": "1", 
+            "entity": "restaurantPeople"
+          }, 
+          {
+            "start": 22, 
+            "end": 28, 
+            "value": "sabado", 
+            "entity": "restaurantDate"
+          }, 
+          {
+            "start": 32, 
+            "end": 37, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante para 1 el sabado en Norte"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 17, 
+            "value": "Norte", 
+            "entity": "restaurantLoc"
+          }
+        ], 
+        "intent": "GetRestaurant", 
+        "text": "restaurante Norte"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}
