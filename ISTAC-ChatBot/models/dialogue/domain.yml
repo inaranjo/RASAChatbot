@@ -1,0 +1,70 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_ask_howcanhelp
+- utter_goodbye
+- utter_ask_date
+- utter_ask_what
+- utter_ask_loc
+- utter_ask_more
+- action_show
+- action_ask_howcanhelp
+actions:
+- utter_greet
+- utter_ask_howcanhelp
+- utter_goodbye
+- utter_ask_date
+- utter_ask_what
+- utter_ask_loc
+- utter_ask_more
+- actions.ActionShow
+- actions.ActionAskHowCanHelp
+config:
+  store_entities_as_slots: true
+entities:
+- var_Date
+- var_Loc
+- var_What
+intents:
+- Saludo
+- Despedida
+- inform
+slots:
+  var_Date:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  var_Loc:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  var_What:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_date:
+  - text: de cuando?
+  - text: En que periodo?
+  utter_ask_howcanhelp:
+  - text: Hola! En que te puedo ayudar?
+  - text: Estoy para ayudarte, dime que necesitas por favor
+  utter_ask_loc:
+  - text: De donde?
+  - text: De que lugar?
+  - text: En que localidad?
+  utter_ask_more:
+  - buttons:
+    - payload: Escribe el nombre de otra poblacion
+      title: Otra localidad
+    - payload: Escribe otra fecha
+      title: Otra fecha
+    - payload: Escribe otro indicador
+      title: Otra informacion
+    text: 'Opciones:'
+  utter_ask_what:
+  - text: que te interesaria saber?
+  - text: Cual indice andas buscando?
+  utter_goodbye:
+  - text: Adios :)
+  - text: Fue un placer :-)
+  utter_greet:
+  - text: Hola! Soy el ChatBot de ISTAC
+topics: []

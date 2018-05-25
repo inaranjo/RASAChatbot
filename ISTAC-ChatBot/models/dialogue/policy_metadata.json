@@ -1,0 +1,27 @@
+{
+  "action_fingerprints": {
+    "utter_goodbye": {
+      "slots": []
+    }, 
+    "action_ask_howcanhelp": {
+      "slots": []
+    }, 
+    "action_listen": {
+      "slots": [
+        "var_What", 
+        "var_Date", 
+        "var_Loc"
+      ]
+    }
+  }, 
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy", 
+    "policy.RestaurantPolicy"
+  ], 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  "max_histories": [
+    3, 
+    5
+  ], 
+  "rasa_core": "0.9.0a5"
+}

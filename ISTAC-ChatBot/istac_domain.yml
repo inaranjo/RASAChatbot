@@ -1,0 +1,53 @@
+slots:
+  var_Date:
+    type: text
+  var_Loc:
+    type: text
+  var_What:
+    type: text
+
+intents:
+ - Saludo
+ - Despedida
+ - inform
+
+entities:
+ - var_Date
+ - var_Loc
+ - var_What
+
+templates:
+  utter_greet:
+    - "Hola! Soy el ChatBot de ISTAC"
+  utter_goodbye:
+    - "Adios :)"
+    - "Fue un placer :-)"
+  utter_ask_loc: 
+    - text : "De donde?"
+    - text : "De que lugar?"
+    - text : "En que localidad?"
+  utter_ask_date: 
+    - text : "de cuando?"
+    - text : "En que periodo?"
+  utter_ask_what: 
+    - text : "que te interesaria saber?"
+    - text : "Cual indice andas buscando?"
+  utter_ask_more: 
+    - text: "Opciones:"
+      buttons:
+      - title: "Otra localidad"
+        payload: "Escribe el nombre de otra poblacion"
+      - title: "Otra fecha"
+        payload: "Escribe otra fecha"
+      - title: "Otra informacion"
+        payload: "Escribe otro indicador"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_date
+  - utter_ask_what
+  - utter_ask_loc
+  - utter_ask_more
+  - actions.ActionShow  
+  - actions.ActionAskHowCanHelp 

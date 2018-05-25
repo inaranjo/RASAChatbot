@@ -1,0 +1,10 @@
+[
+    {
+        "pattern": "hey[^\\s]*", 
+        "name": "Saludo"
+    }, 
+    {
+        "pattern": "[0-9]{5}", 
+        "name": "zipcode"
+    }
+]

@@ -1,0 +1,236 @@
+%[Afirmacion]
+    Si
+    Ok
+    Perfecto
+    Eso
+
+%[Negacion]
+    No
+    Nah
+    Neh
+    Nunca
+
+%[Saludo]
+    Hola
+    Hey
+
+%[Despedida]
+    Gracias
+    Adios
+
+%[inform]
+    ~[prep?] @[var_Date]
+    ~[prep?] @[var_Loc]
+    @[var_What]
+
+    @[var_What] ~[prep?] @[var_Date] ~[prep?] @[var_Loc]
+    @[var_What] ~[prep?] @[var_Loc] ~[prep?] @[var_Date]
+    @[var_Loc] ~[prep?] @[var_What] ~[prep?] @[var_Date] 
+    @[var_Loc] ~[prep?] @[var_Date] ~[prep?] @[var_What] 
+    @[var_Date] ~[prep?] @[var_Loc] ~[prep?] @[var_What]  
+    @[var_Date] ~[prep?] @[var_What] ~[prep?] @[var_Loc]   
+
+    ~[prephrase?] @[var_What] ~[prep?] @[var_Loc] ~[prep?] @[var_Date]
+    ~[prephrase?] @[var_What] ~[prep?] @[var_Date] ~[prep?] @[var_Loc]
+    ~[prephrase?] @[var_What] ~[prep?] @[var_Loc]
+    ~[prephrase?] @[var_What] ~[prep?] @[var_Date]
+
+~[prephrase]
+    Quiero 
+    Quiero saber
+    Quisiera saber
+    Por favor dame
+    Por favor dime
+    Estoy buscando
+    Me interesa saber
+
+~[prep]
+    en
+    de
+
+@[var_What#what]
+    ~[Poblacion]
+    ~[Desempleo]
+    ~[Porcentaje poblacion]
+    ~[Variacion poblacion]
+    ~[Variacion desempleo]
+
+~[Poblacion]
+    la poblacion
+    los habitantes
+    poblacion
+    habitantes
+    numero de habitantes
+    el padron
+    padron
+
+~[Desempleo]
+    el desempleo
+    desempleo
+    el paro
+    paro
+    Tasa paro
+    Tasa desempleo
+    Tasa de paro
+    Tasa de desempleo
+
+~[Porcentaje poblacion]
+    poblacion porcentaje
+    porcentaje poblacion
+    Porcentaje poblacion
+    Porcentaje poblacion sobre el total
+    Porcentaje poblacion sobre el total de Canarias
+    Porcentaje de la poblacion sobre el total
+    Porcentaje de la poblacion sobre el total de Canarias
+
+~[Variacion poblacion]
+    Coeficientes de variacion de la poblacion
+    Variacion de la poblacion
+    Variacion de poblacion
+    Variacion poblacion
+    Variacion habitantes
+    Tasa de variacion de la poblacion
+    Variacion interanual de la poblacion
+    Tasa de variacion interanual de la poblacion
+
+~[Variacion desempleo]
+    Coeficientes de variacion del paro
+    Coeficientes variacion paro
+    Coeficientes de variacion del desempleo
+    Variacion del desempleo
+    Variacion desempleo
+    Variacion del paro
+    Variacion paro
+    Tasa de variacion del desempleo
+    Variacion interanual del desempleo
+    Tasa de variacion interanual del desempleo
+    Tasa variacion interanual desempleo
+
+
+@[var_Date#snips/datetime]
+    hoy
+    este año
+    este mes
+    Enero
+    Febrero
+    Marzo
+    Abril
+    Mayo
+    Junio
+    Julio
+    Agosto
+    Septiembre
+    Octubre
+    Noviembre
+    Diciembre
+    2018
+    2017
+    1996
+
+
+@[var_Loc#location]
+    35000
+    38000
+    38201
+    España
+    Tenerife
+    Canarias
+    Las Palmas
+    Fuerteventura
+    Antigua
+    Betancuria
+    La Oliva
+    Puerto del Rosario
+    Pájara
+    Tuineje
+    Gran Canaria
+    Arucas
+    Las Palmas de Gran Canaria
+    Santa Brígida
+    Telde
+    Firgas
+    Teror
+    Valsequillo de Gran Canaria
+    Valleseco
+    Vega de San Mateo
+    Agaete
+    Gáldar
+    Moya
+    Santa María de Guía de Gran Canaria
+    Artenara
+    La Aldea de San Nicolás
+    Tejeda
+    Mogán
+    San Bartolomé de Tirajana
+    Agüimes
+    Ingenio
+    Santa Lucía de Tirajana
+    Lanzarote
+    Arrecife
+    San Bartolomé
+    Tías
+    Haría
+    Teguise
+    Tinajo
+    Yaiza
+    Santa Cruz de Tenerife
+    El Hierro
+    Frontera
+    Valverde
+    El Pinar de El Hierro
+    La Gomera
+    Agulo
+    Hermigua
+    Vallehermoso
+    Alajeró
+    San Sebastián de La Gomera
+    Valle Gran Rey
+    La Palma
+    Breña Alta
+    Breña Baja
+    Santa Cruz de La Palma
+    Villa de Mazo
+    Barlovento
+    Puntallana
+    San Andrés y Sauces
+    Garafía
+    Puntagorda
+    Tijarafe
+    Fuencaliente de La Palma
+    Los Llanos de Aridane
+    El Paso
+    Tazacorte
+    Tenerife
+    San Cristóbal de La Laguna
+    El Rosario
+    Santa Cruz de Tenerife
+    Tegueste
+    La Matanza de Acentejo
+    Santa Úrsula
+    El Sauzal
+    Tacoronte
+    La Victoria de Acentejo
+    Buenavista del Norte
+    Garachico
+    Los Silos
+    El Tanque
+    La Guancha
+    Icod de los Vinos
+    San Juan de la Rambla
+    La Orotava
+    Puerto de la Cruz
+    Los Realejos
+    Arico
+    Fasnia
+    Granadilla de Abona
+    San Miguel de Abona
+    Vilaflor de Chasna
+    Adeje
+    Arona
+    Guía de Isora
+    Santiago del Teide
+    Arafo
+    Candelaria
+    Güímar
+
+

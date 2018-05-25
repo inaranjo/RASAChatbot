@@ -1,0 +1,24 @@
+{
+  "states": [
+    "intent_Saludo", 
+    "intent_Despedida", 
+    "intent_inform", 
+    "entity_var_Date", 
+    "entity_var_Loc", 
+    "entity_var_What", 
+    "slot_var_Date_0", 
+    "slot_var_Loc_0", 
+    "slot_var_What_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_ask_howcanhelp", 
+    "prev_utter_goodbye", 
+    "prev_utter_ask_date", 
+    "prev_utter_ask_what", 
+    "prev_utter_ask_loc", 
+    "prev_utter_ask_more", 
+    "prev_action_show", 
+    "prev_action_ask_howcanhelp"
+  ]
+}
