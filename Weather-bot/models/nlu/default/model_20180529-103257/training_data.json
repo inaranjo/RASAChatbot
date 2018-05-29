@@ -1,0 +1,776 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hi", 
+        "intent": "Greet"
+      }, 
+      {
+        "text": "Hello", 
+        "intent": "Greet"
+      }, 
+      {
+        "text": "What's up", 
+        "intent": "Greet"
+      }, 
+      {
+        "text": "Hey", 
+        "intent": "Greet"
+      }, 
+      {
+        "text": "Bye", 
+        "intent": "Bye"
+      }, 
+      {
+        "text": "Cheers", 
+        "intent": "Bye"
+      }, 
+      {
+        "text": "Goodbye", 
+        "intent": "Bye"
+      }, 
+      {
+        "text": "Good Bye", 
+        "intent": "Bye"
+      }, 
+      {
+        "text": "Regards", 
+        "intent": "Bye"
+      }, 
+      {
+        "text": "Great! Thanks!", 
+        "intent": "Bye"
+      }, 
+      {
+        "text": "Great, thank you", 
+        "intent": "Bye"
+      }, 
+      {
+        "text": "Thanks", 
+        "intent": "Bye"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 22, 
+            "end": 28, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How is the weather in London ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 22, 
+            "end": 27, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How is the weather in Paris ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 22, 
+            "end": 31, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How is the weather in Abu Dhabi ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 22, 
+            "end": 28, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How is the weather in Bogota ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 22, 
+            "end": 26, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How is the weather in Lima ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 22, 
+            "end": 27, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How is the weather in Alger ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the weather in London ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 28, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the weather in Paris ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 32, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the weather in Abu Dhabi ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the weather in Bogota ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 27, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the weather in Lima ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 28, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the weather in Alger ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 27, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the meteo in London ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 26, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the meteo in Paris ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 30, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the meteo in Abu Dhabi ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 27, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the meteo in Bogota ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 25, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the meteo in Lima ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 26, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "What is the meteo in Alger ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 48, 
+            "end": 54, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Please tell me what kind of weather there is in London"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 48, 
+            "end": 53, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Please tell me what kind of weather there is in Paris"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 48, 
+            "end": 57, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Please tell me what kind of weather there is in Abu Dhabi"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 48, 
+            "end": 54, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Please tell me what kind of weather there is in Bogota"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 48, 
+            "end": 52, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Please tell me what kind of weather there is in Lima"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 48, 
+            "end": 53, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Please tell me what kind of weather there is in Alger"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 40, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "tell me if it is going to rain in London"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 39, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "tell me if it is going to rain in Paris"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 43, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "tell me if it is going to rain in Abu Dhabi"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 40, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "tell me if it is going to rain in Bogota"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 38, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "tell me if it is going to rain in Lima"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 39, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "tell me if it is going to rain in Alger"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 26, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "will it be sunny in London ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 25, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "will it be sunny in Paris ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 29, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "will it be sunny in Abu Dhabi ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 26, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "will it be sunny in Bogota ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 24, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "will it be sunny in Lima ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 25, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "will it be sunny in Alger ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "London"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Paris"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Abu Dhabi"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Bogota"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Lima"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "Alger"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 9, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "in London"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 8, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "in Paris"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 12, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "in Abu Dhabi"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 9, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "in Bogota"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 7, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "in Lima"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 8, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "in Alger"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "And London ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 9, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "And Paris ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 13, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "And Abu Dhabi ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "And Bogota ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "And Lima ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 9, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "And Alger ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 16, 
+            "value": "London", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How about London ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 15, 
+            "value": "Paris", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How about Paris ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 19, 
+            "value": "Abu Dhabi", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How about Abu Dhabi ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 16, 
+            "value": "Bogota", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How about Bogota ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "Lima", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How about Lima ?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 15, 
+            "value": "Alger", 
+            "entity": "city"
+          }
+        ], 
+        "intent": "GetWeather", 
+        "text": "How about Alger ?"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}

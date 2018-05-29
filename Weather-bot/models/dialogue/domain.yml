@@ -1,0 +1,34 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask_loc
+- action_show
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_loc
+- actions.ActionShow
+config:
+  store_entities_as_slots: true
+entities:
+- city
+intents:
+- Greet
+- Bye
+- GetWeather
+slots:
+  city:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_loc:
+  - text: Where do you want the weather from?
+  - text: From which city?
+  utter_goodbye:
+  - text: Bye :-)
+  - text: Hope you found everything :-)
+  utter_greet:
+  - text: Hey! I am weather-bot do you want some meteo?
+  - text: Hola Yacine! I am here to forecast ;-)
+topics: []

@@ -1,0 +1,35 @@
+%[Greet]
+    Hi
+    Hello
+    What's up
+    Hey
+
+%[Bye]
+    Bye
+    Cheers
+    Goodbye
+    Good Bye
+    Regards
+    Great! Thanks!
+    Great, thank you
+    Thanks
+
+%[GetWeather]
+    How is the weather in @[city]?
+    What is the weather in @[city]?
+    What is the meteo in @[city]?
+    Please tell me what kind of weather there is in @[city]
+    tell me if it is going to rain in @[city]
+    will it be sunny in @[city]?
+    @[city]
+    in @[city]
+    And @[city]?
+    How about @[city]?
+
+@[city#location]
+    London
+    Paris
+    Abu Dhabi
+    Bogota
+    Lima
+    Alger

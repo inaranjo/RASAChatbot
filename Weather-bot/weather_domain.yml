@@ -1,0 +1,27 @@
+slots:
+  city:
+    type: text
+
+intents:
+ - Greet
+ - Bye
+ - GetWeather
+
+entities:
+ - city
+
+templates:
+  utter_greet:
+    - "Hey! I am weather-bot do you want some meteo?"
+  utter_goodbye:
+    - "Bye :-)"
+    - "Hope you found everything :-)"
+  utter_ask_loc: 
+    - text : "Where do you want the weather from?"
+    - text : "From which city?"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_loc
+  - actions.ActionShow  

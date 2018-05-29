@@ -1,0 +1,15 @@
+{
+  "states": [
+    "intent_Greet", 
+    "intent_Bye", 
+    "intent_GetWeather", 
+    "entity_city", 
+    "slot_city_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_goodbye", 
+    "prev_utter_ask_loc", 
+    "prev_action_show"
+  ]
+}
